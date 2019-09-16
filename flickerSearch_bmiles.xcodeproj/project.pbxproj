@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		30134DD8220A19C500038B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134DD7220A19C500038B45 /* AppDelegate.swift */; };
-		30134DDA220A19C500038B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134DD9220A19C500038B45 /* ViewController.swift */; };
 		30134DDD220A19C500038B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30134DDB220A19C500038B45 /* Main.storyboard */; };
 		30134DE0220A19C500038B45 /* flickerSearch_bmiles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30134DDE220A19C500038B45 /* flickerSearch_bmiles.xcdatamodeld */; };
 		30134DE2220A19C600038B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30134DE1220A19C600038B45 /* Assets.xcassets */; };
 		30134DE5220A19C600038B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30134DE3220A19C600038B45 /* LaunchScreen.storyboard */; };
 		30134DF0220A19C700038B45 /* flickerSearch_bmilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134DEF220A19C700038B45 /* flickerSearch_bmilesTests.swift */; };
 		30134DFB220A19C700038B45 /* flickerSearch_bmilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134DFA220A19C700038B45 /* flickerSearch_bmilesUITests.swift */; };
+		30134E09220A1C6A00038B45 /* FlickerPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134E08220A1C6A00038B45 /* FlickerPhotosViewController.swift */; };
+		30134E0E220A1E3800038B45 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134E0A220A1E3800038B45 /* FlickrPhoto.swift */; };
+		30134E0F220A1E3800038B45 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134E0B220A1E3800038B45 /* Flickr.swift */; };
+		30134E10220A1E3800038B45 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30134E0C220A1E3800038B45 /* FlickrSearchResults.swift */; };
+		30134E11220A1E3800038B45 /* GetFlickrAPIKey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30134E0D220A1E3800038B45 /* GetFlickrAPIKey.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		30134DD4220A19C500038B45 /* flickerSearch_bmiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickerSearch_bmiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30134DD7220A19C500038B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30134DD9220A19C500038B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30134DDC220A19C500038B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30134DDF220A19C500038B45 /* flickerSearch_bmiles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flickerSearch_bmiles.xcdatamodel; sourceTree = "<group>"; };
 		30134DE1220A19C600038B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		30134DF6220A19C700038B45 /* flickerSearch_bmilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickerSearch_bmilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30134DFA220A19C700038B45 /* flickerSearch_bmilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickerSearch_bmilesUITests.swift; sourceTree = "<group>"; };
 		30134DFC220A19C700038B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30134E08220A1C6A00038B45 /* FlickerPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhotosViewController.swift; sourceTree = "<group>"; };
+		30134E0A220A1E3800038B45 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrPhoto.swift; path = ../../week3/FlickrFiles/FlickrPhoto.swift; sourceTree = "<group>"; };
+		30134E0B220A1E3800038B45 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flickr.swift; path = ../../week3/FlickrFiles/Flickr.swift; sourceTree = "<group>"; };
+		30134E0C220A1E3800038B45 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrSearchResults.swift; path = ../../week3/FlickrFiles/FlickrSearchResults.swift; sourceTree = "<group>"; };
+		30134E0D220A1E3800038B45 /* GetFlickrAPIKey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GetFlickrAPIKey.txt; path = ../../week3/FlickrFiles/GetFlickrAPIKey.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		30134DD6220A19C500038B45 /* flickerSearch_bmiles */ = {
 			isa = PBXGroup;
 			children = (
+				30134E0B220A1E3800038B45 /* Flickr.swift */,
+				30134E0A220A1E3800038B45 /* FlickrPhoto.swift */,
+				30134E0C220A1E3800038B45 /* FlickrSearchResults.swift */,
+				30134E0D220A1E3800038B45 /* GetFlickrAPIKey.txt */,
 				30134DD7220A19C500038B45 /* AppDelegate.swift */,
-				30134DD9220A19C500038B45 /* ViewController.swift */,
 				30134DDB220A19C500038B45 /* Main.storyboard */,
 				30134DE1220A19C600038B45 /* Assets.xcassets */,
 				30134DE3220A19C600038B45 /* LaunchScreen.storyboard */,
 				30134DE6220A19C600038B45 /* Info.plist */,
 				30134DDE220A19C500038B45 /* flickerSearch_bmiles.xcdatamodeld */,
+				30134E08220A1C6A00038B45 /* FlickerPhotosViewController.swift */,
 			);
 			path = flickerSearch_bmiles;
 			sourceTree = "<group>";
@@ -235,6 +247,7 @@
 				30134DE5220A19C600038B45 /* LaunchScreen.storyboard in Resources */,
 				30134DE2220A19C600038B45 /* Assets.xcassets in Resources */,
 				30134DDD220A19C500038B45 /* Main.storyboard in Resources */,
+				30134E11220A1E3800038B45 /* GetFlickrAPIKey.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30134DDA220A19C500038B45 /* ViewController.swift in Sources */,
+				30134E09220A1C6A00038B45 /* FlickerPhotosViewController.swift in Sources */,
+				30134E10220A1E3800038B45 /* FlickrSearchResults.swift in Sources */,
+				30134E0E220A1E3800038B45 /* FlickrPhoto.swift in Sources */,
+				30134E0F220A1E3800038B45 /* Flickr.swift in Sources */,
 				30134DE0220A19C500038B45 /* flickerSearch_bmiles.xcdatamodeld in Sources */,
 				30134DD8220A19C500038B45 /* AppDelegate.swift in Sources */,
 			);
@@ -437,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT6U6M8BZ7;
 				INFOPLIST_FILE = flickerSearch_bmiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT6U6M8BZ7;
 				INFOPLIST_FILE = flickerSearch_bmiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
